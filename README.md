@@ -12,3 +12,8 @@ This app will allow user to checkout his favorites soccer player of all time. No
 - User Sign Up/In authentication. 
 - 
 ## PMVPs
+- Landing page.
+- Hamburger menu.
+- User interaction: comments and reviews.
+- Consumer user account and login.
+- Testing.
