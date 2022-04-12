@@ -35,10 +35,9 @@ This app will allow user to checkout his favorites soccer player of all time. No
 
 <img src="images/create-player-iphone.png">
 
-
-
-
 ## Schema
+
+<img src="images/football-hero-component-hierarchy.png">
 
 ## MVPs
 - Full CRUD capacity backend (Express, Mongoose, MongoDb).
