@@ -13,6 +13,31 @@ This app will allow user to checkout his favorites soccer player of all time. No
 
 <img src="images/create-player-desktop.png">
 
+
+<img src="images/home-ipad.png">
+
+<img src="images/detail-player-ipad.png">
+
+<img src="images/signin-ipad.png">
+
+<img src="images/login-ipad.png">
+
+<img src="images/create-player-ipad.png">
+
+
+<img src="images/home-iphone.png">
+
+<img src="images/detail-player-iphone.png">
+
+<img src="images/signin-iphone.png">
+
+<img src="images/login-iphone.png">
+
+<img src="images/create-player-iphone.png">
+
+
+
+
 ## Schema
 
 ## MVPs
