@@ -1,6 +1,8 @@
-# Football Hero 
+# Football Hero
+
 ## Project Description
 This app will allow user to checkout his favorites soccer player of all time. Now, if you think the site doesnt have your favorite player(s), Football Hero has a feature that allows you to upload your favorite player picture and other relevant information (nationality, teams, position, etc).
+
 ## Figma
 
 <img src="images/home-desktop.png" width="500">
@@ -37,6 +39,33 @@ This app will allow user to checkout his favorites soccer player of all time. No
 
 ## Schema
 
+```
+const User = new Schema (
+  {
+    username: {
+      type: String,
+      required: true,
+    },
+    email: { type: String, required: true },
+    password_digest: { type: String, required: true, select: false },
+  },
+  { timestamps: true }
+)
+
+const Player = new Schema (
+  {
+    name: { type: String, required: true },
+    nationality: { type: String, required: true },
+    positions: { type: String, required: true },
+    teams: { type: String, required: true },
+    facts: { type: String, required: true },
+    img_url: { type: String, required: true },
+    keywords: { type: Array, required: true },
+  },
+  { timestamps: true }
+)
+
+```
 <img src="images/football-hero-component-hierarchy.png">
 
 ## MVPs
